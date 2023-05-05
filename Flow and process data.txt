@@ -1,0 +1,11 @@
+First, you need to add the http package to your project. 
+You can do this by adding the following line to your pubspec.yaml file:
+
+dependencies:
+  http: ^0.13.4
+  
+  Then, you can use the http package to call an API.
+  
+  In the given code, the MyWidget widget calls the fetchData function in its initState method and stores the result in the data variable. If data is null, the widget shows a CircularProgressIndicator. Otherwise, it displays the data as text.
+
+Depending on your specific API endpoint and data format, you may need to modify the code accordingly.
